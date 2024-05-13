@@ -1,0 +1,43 @@
+h1{
+    
+    text-align: center;
+}
+
+
+
+.user-dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .dashboard-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden; /* Ensures button does not overflow the square */
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-bottom: 5px;
+  }
+  
+  .dashboard-section button {
+    border: none;
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 18px; /* Adjust padding for smaller squares */
+    font-size: 18px; /* Adjust font size for smaller text */
+   
+    width: 100%; /* Button spans full width of the square */
+    height: 100%; /* Button fills the square vertically */
+    border-radius: 100; /* No border radius for the button */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-section button:hover {
+    background-color: #2980b9;
+  }
+  

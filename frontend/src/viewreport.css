@@ -1,0 +1,60 @@
+/* Styling for the container holding the medical report details */
+.pdf-container {
+  
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Add border */
+  border-radius: 4px; /* Add border radius for rounded corners */
+  padding: 15px;
+  
+  }
+  .table{
+    background-color:aliceblue;
+  }
+  .h1{
+    text-align: left;
+    margin: 10px;
+  }
+  /* Styling for the table */
+  table {
+    
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    
+  }
+  
+  /* Styling for table headings */
+  th {
+    background-color: #f2f2f2;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  /* Styling for table cells */
+  td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Styling for buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for links inside buttons */
+  button a {
+    color: white;
+    text-decoration: none;
+  }
+  
