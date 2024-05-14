@@ -11,6 +11,9 @@ import DisplayUploadedFiles from "./uploadedfiles";
 import formcss from './ReportForm.css';
 import Header from "./Header";
 import Footer from "./Footer";
+import AdminDashboard from "./AdminDashboard";
+import AdminReports from "./AdminReports";
+import Adminupdate from "./Adminupdate";
 
 function CreateReport(props) {
   const navigate = useNavigate();
@@ -233,6 +236,9 @@ function CreateReport(props) {
       <Route path='/updatereport' element={<UpdateReport id={report.PID}></UpdateReport>}></Route>
       <Route path='/deletereport' element={<DeleteReport rept={report} ></DeleteReport>}></Route>
       <Route path='/uploads' element={<DisplayUploadedFiles images={upimgs} onDeleteImage={handleDeleteImage}></DisplayUploadedFiles>}></Route>
+      <Route path='/admindash' element={<AdminDashboard></AdminDashboard>}></Route>
+      <Route path='/allreports' element={<AdminReports></AdminReports>}></Route>
+      <Route path='/update/:id' element={<Adminupdate></Adminupdate>}></Route>
     </Routes>
             
 
